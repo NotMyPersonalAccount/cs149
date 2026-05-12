@@ -1,0 +1,32 @@
+    1  pwd
+    2  cd ~
+    3  cd Desktop/
+    4  ls -latr ; mkdir cs149 ; cd cs149
+    5  git init
+    6  git config --global user.email "kevinzj710@gmail.com"
+    7  git config --global user.name "NotMyPersonalAccount"
+    8  mkdir WS_bonus
+    9  cd WS_bonus/
+   10  git add .
+   11  wget -O out.pdf https://tinyurl.com/yy94jltt
+   12  ls -latr
+   13  history > cmds.log
+   14  git add cmds.log 
+   15  git commit -m "First commit" -a
+   16  git log
+   17  git branch
+   18  git branch -M main
+   19  git branch
+   20  git remote add origin https://github.com/NotMyPersonalAccount/cs149.git
+   21  git push -u origin main 
+   22  history
+   23  sudo dnf install git @development-tools gdb qemu-system-riscv gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+   24  cd ~
+   25  git clone git://g.csail.mit.edu/xv6-labs-2023
+   26  cd xv6-labs-2023/
+   27  make qemu
+   28  nano Makefile 
+   29  make qemu
+   30  make grade
+   31  ./grade-lab-util sleep
+   32  history > worksheetB.log
