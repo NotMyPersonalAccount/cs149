@@ -1,0 +1,13 @@
+    1  pwd
+    2  cd ~
+    3  cd Desktop/
+    4  ls -latr ; mkdir cs149 ; cd cs149
+    5  git init
+    6  git config --global user.email "kevinzj710@gmail.com"
+    7  git config --global user.name "NotMyPersonalAccount"
+    8  mkdir WS_bonus
+    9  cd WS_bonus/
+   10  git add .
+   11  wget -O out.pdf https://tinyurl.com/yy94jltt
+   12  ls -latr
+   13  history > cmds.log
